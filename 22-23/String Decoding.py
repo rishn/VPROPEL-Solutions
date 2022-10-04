@@ -13,7 +13,7 @@ accaccacc
 abcabccdcdcdef
 '''
 
-#PSEUDOCODE
+#PSEUDOCODE/ALGORITHM
 '''
 t <- no. of testcases
 p <- 0
