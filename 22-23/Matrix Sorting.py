@@ -65,7 +65,6 @@ Matrix_Sort(int 2D array arr)
 '''
 
 #CODE
-'''
 n = int(input())
 arr = [sorted(map(int, input().split())) for i in range(n)]
 for i in range(n):
@@ -75,7 +74,6 @@ for i in range(n):
                 arr[j][i], arr[k][i] = arr[k][i], arr[j][i]
 for i in arr:
     print(*i)
-'''
 
 #C
 '''
