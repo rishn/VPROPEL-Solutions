@@ -61,14 +61,12 @@ Reg_Num(char[] reg)
 '''
 
 #CODE
-'''
 import re
 reg = input()
 if re.match(r'^\d{2}[A-Z]{3}\d{4}$', reg):
     print("YES", 2000 + int(reg[ : 2]) + 4, sep = "\n") 
 else:
     print("NO")
-'''
 
 #C
 '''
