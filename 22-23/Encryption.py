@@ -14,7 +14,7 @@ BEILLMF
 
 #PSEUDOCODE/ALGORITHM
 '''
-Encryption(char[] word, char[] key)
+Encryption(char array word, char array key)
 {
     alpha <- "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     key <- key + alpha
