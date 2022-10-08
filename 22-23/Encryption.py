@@ -64,7 +64,6 @@ Encryption(char[] word, char[] key)
 '''
 
 #CODE
-'''
 from string import ascii_uppercase
 for i in range(int(input())):
     word, key = input().split()
@@ -76,7 +75,6 @@ for i in range(int(input())):
     for j in word:
         new_word += dist_key[ascii_uppercase.index(j)]
     print(new_word)
-'''
 
 #C
 '''
