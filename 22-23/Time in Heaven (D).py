@@ -43,9 +43,9 @@ Time_In_Heaven()
         else
             print "0" + (h - 4) + Substr(w) + " C.M"
     else if (m == "midnight")
-        print "08:00:00 " + m;
+        print "08:00:00 " + m
     else
-        print "08:00:00 B.M";
+        print "08:00:00 B.M"
 }
 '''
 
