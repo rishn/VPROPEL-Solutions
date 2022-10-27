@@ -48,7 +48,7 @@ Palindrome()
             i += 1
         }
         if (chk == 1)
-            return arr[n];
+            return arr[n]
     }
 }
 Security_Number(long int n)
@@ -56,13 +56,13 @@ Security_Number(long int n)
     s <- 0
     while (n > 0)
     {
-        s += n % 10;
-        n /= 10;
+        s += n % 10
+        n /= 10
     }
     if (s % 2 == 1)
-        print Palindrome();
+        print Palindrome()
     else 
-        print Perfect_Square();
+        print Perfect_Square()
 }
 '''
 
