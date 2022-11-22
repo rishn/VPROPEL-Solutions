@@ -3,8 +3,8 @@
 int *a;
 void merge(int *left, int *right, int *a)
 {
-    nl = sizeof(left) / sizeof(int);
-    nr = sizeof(right) / sizeof(int);
+    int nl = sizeof(left) / sizeof(int);
+    int nr = sizeof(right) / sizeof(int);
     int i = 0, j = 0, k = 0;
     while (i < nl && j < nr)
     {
