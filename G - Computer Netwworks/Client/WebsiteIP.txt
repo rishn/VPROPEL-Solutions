@@ -1,0 +1,2 @@
+www.google.com	121:255:89:203
+www.yahoo.com	169:245:69:696
